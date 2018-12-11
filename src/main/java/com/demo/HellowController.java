@@ -16,4 +16,9 @@ public class HellowController {
 	public String hellow() {
 		return "Hellow Spring Boot!";
 	}
+	
+	@RequestMapping("world")
+	public String world() {
+		return "Hellow World!";
+	}
 }
